@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
     <title>Weather App</title>
   </head>
   <body>
@@ -28,11 +28,13 @@
           </svg>
         </button>
       </div>
-      <div class="weather">
+      <div class="weather loading">
         <h2 class="city">Weather In Toronto</h2>
         <h1 class="temp">51°C</h1>
-        <img src="" alt="" class="icon"/>
-        <div class="description">Cloudy</div>
+        <div class="flex">
+          <img src="http://openweathermap.org/img/wn/02n.png" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
         <div class="humidity">Humidity: 60%</div>
         <div class="wind">Wind Speed: 6.2 km/h</div>
       </div>
