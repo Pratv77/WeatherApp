@@ -1,6 +1,6 @@
 # Weather App
 
-Welcome to Weather App! This interactive web-based weather app uses the OpenWeatherMap API to provide current weather conditions and forecast information from locations around the world. It also has a dynamic background image that reflects the place being searched. The app is built using HTML, CSS, and JavaScript.
+Welcome to my basic Weather App! This interactive web-based weather app uses the OpenWeatherMap API to provide current weather conditions and forecast information from locations around the world. It also has a dynamic background image that reflects the place being searched. The app is built using HTML, CSS, and JavaScript.
 
 ## Features
 - Current weather conditions and forecast information from locations around the world
